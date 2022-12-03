@@ -5,6 +5,7 @@
       overflow: hidden;
       margin: 0;
       padding: 0;
+      text-align: center;
     }
 
     h1 {
@@ -40,11 +41,7 @@
       color:white
     }
 
-    .pic{
-        position: fixed;
-        top: 47px;
-        right: 670px;
-    }
+    
 
     .pic:hover{
         transform:scale(1.2);
@@ -56,4 +53,16 @@
 
     p:last-of-type {
       margin-bottom: 0;
+    }
+
+    .updateslink:hover{
+        color:#007067
+    }
+
+    b{
+        color:mediumturquoise
+    }
+
+    a:hover{
+        color: #007067;
     }
