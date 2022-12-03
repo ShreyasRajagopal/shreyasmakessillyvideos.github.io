@@ -36,25 +36,22 @@
       box-shadow: 0 2px 4px 0 rgba(14, 30, 37, .16);
     }
 
-    a {
-      margin: 0;
-      font-weight: 600;
-      line-height: 24px;
-      color: #054861;
+    a{
+      color:white
     }
 
-    a svg {
-      position: relative;
-      top: 2px;
+    .pic{
+        position: fixed;
+        top: 47px;
+        right: 670px;
     }
 
-    a:hover,
-    a:focus {
-      text-decoration: none;
-    }
+    .pic:hover{
+        transform:scale(1.2);
+    } 
 
-    a:hover svg path{
-      fill: #007067;
+    .title:hover{
+      color:#007067
     }
 
     p:last-of-type {
